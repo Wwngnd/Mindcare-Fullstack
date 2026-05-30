@@ -31,3 +31,19 @@
 <img width="1354" height="600" alt="Buku" src="https://github.com/user-attachments/assets/23fa7f38-52c9-4bad-8da9-5c049582c061" />
 
 -----
+
+## ✨ Fitur Utama
+###😊 Daily Check-in
+Pengguna dapat melakukan check-in suasana hati harian untuk memantau kondisi emosional mereka dari waktu ke waktu.
+
+###📋 Cek Stress
+Melakukan penilaian tingkat stres melalui kuisioner yang telah disediakan.
+
+###📔 Journaling
+Mencatat aktivitas, pengalaman, dan perasaan pengguna setiap hari.
+
+###🏃 Olahraga
+Memberikan rekomendasi olahraga berdasarkan kondisi mental pengguna.
+
+### 📚 Book Recommendation
+Memberikan rekomendasi buku self-development dan kesehatan mental.
