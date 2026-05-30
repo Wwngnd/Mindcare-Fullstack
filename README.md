@@ -10,3 +10,9 @@
 - Frontend: `http://localhost:5173`
 
 ---
+## 📷 Demo Tampilan
+
+### Dasboard
+<img width="1366" height="854" alt="Dasboard" src="https://github.com/user-attachments/assets/95494271-b7c6-4c98-bcb1-43fce743772c" />
+
+
