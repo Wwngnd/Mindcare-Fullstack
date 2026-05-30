@@ -62,3 +62,10 @@ Memberikan rekomendasi buku self-development dan kesehatan mental.
 
 ---
 
+## 📦 Cara Menjalankan Proyek
+
+### 1. Clone repository
+
+```bash
+git clone <URL_REPOSITORY_ANDA>
+```
