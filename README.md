@@ -178,7 +178,7 @@ Authorization: Bearer <accessToken>
 
 ---
 
-##$ 📊 HTTP Response Codes
+### 📊 HTTP Response Codes
 
 | Status Code | Keterangan            |
 | ----------- | --------------------- |
@@ -192,7 +192,7 @@ Authorization: Bearer <accessToken>
 
 ---
 
-##$ 🔒 Authorization Example
+### 🔒 Authorization Example
 
 ```http
 GET /api/auth/me
