@@ -47,3 +47,18 @@ Memberikan rekomendasi olahraga berdasarkan kondisi mental pengguna.
 
 ### 📚 Book Recommendation
 Memberikan rekomendasi buku self-development dan kesehatan mental.
+
+------
+
+## 🛠️ Teknologi yang Digunakan
+
+| Kategori | Teknologi |
+|---|---|
+| Runtime | Node.js |
+| Backend Framework | Express.js |
+| Database | MySQL + Sequelize |
+| Auth | JWT + Cookie Parser |
+| Frontend | React.js, Tailwind CSS |
+
+---
+
