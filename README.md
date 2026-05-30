@@ -84,5 +84,22 @@ cd frontend
 npm install 
 npm run server
 ```
-
 ------
+
+## 🔐 Auth Flow Dasar
+
+| Langkah         | Method | Endpoint              | Keterangan                            |
+| --------------- | ------ | --------------------- | ------------------------------------- |
+| Register        | POST   | `/api/users/register` | Membuat akun baru                     |
+| Login           | POST   | `/api/auth/login`     | Login dan mendapatkan token           |
+| Ambil Data User | GET    | `/api/auth/me`        | Mengambil data user yang sedang login |
+
+> Endpoint yang membutuhkan autentikasi harus menggunakan header:
+
+```http
+Authorization: Bearer <accessToken>
+```
+
+---
+
+## 📌 Daftar Endpoint Inti
