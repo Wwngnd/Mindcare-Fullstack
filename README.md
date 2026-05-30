@@ -102,4 +102,101 @@ Authorization: Bearer <accessToken>
 
 ---
 
-## 📌 Daftar Endpoint Inti
+## 📌 Daftar Endpoint Inti|
+
+### 🔑 Authentication
+
+| Method | Endpoint           | Deskripsi                               |
+| ------ | ------------------ | --------------------------------------- |
+| POST   | `/api/auth/login`  | Login pengguna                          |
+| GET    | `/api/auth/token`  | Refresh access token                    |
+| DELETE | `/api/auth/logout` | Logout pengguna                         |
+| GET    | `/api/auth/me`     | Mendapatkan data user yang sedang login |
+
+---
+
+### 👤 Users
+
+| Method | Endpoint              | Deskripsi                |
+| ------ | --------------------- | ------------------------ |
+| POST   | `/api/users/register` | Registrasi pengguna baru |
+| PUT    | `/api/users/me`       | Mengubah profil pengguna |
+| DELETE | `/api/users/me`       | Menghapus akun pengguna  |
+
+---
+
+### 📔 Journal
+
+| Method | Endpoint           | Deskripsi                         |
+| ------ | ------------------ | --------------------------------- |
+| POST   | `/api/journal`     | Membuat jurnal baru               |
+| GET    | `/api/journal/me`  | Mengambil seluruh jurnal pengguna |
+| PUT    | `/api/journal/:id` | Mengubah jurnal berdasarkan ID    |
+| DELETE | `/api/journal/:id` | Menghapus jurnal berdasarkan ID   |
+
+---
+
+### 📋 Kuesioner & Rekomendasi
+
+| Method | Endpoint                             | Deskripsi                                |
+| ------ | ------------------------------------ | ---------------------------------------- |
+| POST   | `/api/kuesioner`                     | Mengirim hasil kuesioner stres           |
+| GET    | `/api/kuesioner/rekomendasi`         | Mendapatkan rekomendasi terbaru          |
+| GET    | `/api/kuesioner/rekomendasi/:sesiId` | Mendapatkan rekomendasi berdasarkan sesi |
+
+---
+
+### 🏃 Olahraga
+
+| Method | Endpoint                            | Deskripsi                            |
+| ------ | ----------------------------------- | ------------------------------------ |
+| POST   | `/api/olahraga`                     | Menambahkan aktivitas olahraga       |
+| GET    | `/api/olahraga/me`                  | Mengambil riwayat olahraga pengguna  |
+| GET    | `/api/olahraga/statistik`           | Menampilkan statistik olahraga       |
+| GET    | `/api/olahraga/statistik-per-jenis` | Statistik olahraga berdasarkan jenis |
+
+---
+
+### 🧠 Stress Scan
+
+| Method | Endpoint              | Deskripsi                              |
+| ------ | --------------------- | -------------------------------------- |
+| POST   | `/api/stress-scan`    | Mengirim hasil stress scan             |
+| GET    | `/api/stress-scan/me` | Mengambil riwayat stress scan pengguna |
+
+---
+
+### 📚 Books
+
+| Method | Endpoint                             | Deskripsi                                     |
+| ------ | ------------------------------------ | --------------------------------------------- |
+| GET    | `/api/books/recommendations`         | Mendapatkan rekomendasi buku terbaru          |
+| GET    | `/api/books/recommendations/:sesiId` | Mendapatkan rekomendasi buku berdasarkan sesi |
+| POST   | `/api/books/reads`                   | Menandai buku sebagai telah dibaca            |
+| GET    | `/api/books/reads`                   | Mengambil daftar buku yang telah dibaca       |
+| DELETE | `/api/books/reads/:bookExternalId`   | Menghapus riwayat buku yang telah dibaca      |
+
+---
+
+##$ 📊 HTTP Response Codes
+
+| Status Code | Keterangan            |
+| ----------- | --------------------- |
+| 200         | Request berhasil      |
+| 201         | Data berhasil dibuat  |
+| 400         | Bad Request           |
+| 401         | Unauthorized          |
+| 403         | Forbidden             |
+| 404         | Data tidak ditemukan  |
+| 500         | Internal Server Error |
+
+---
+
+##$ 🔒 Authorization Example
+
+```http
+GET /api/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
+```
+
+-----
