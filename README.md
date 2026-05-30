@@ -67,5 +67,5 @@ Memberikan rekomendasi buku self-development dan kesehatan mental.
 ### 1. Clone repository
 
 ```bash
-git clone <URL_REPOSITORY_ANDA>
+git clone <https://github.com/Wwngnd/Mindcare-Fullstack.git>
 ```
