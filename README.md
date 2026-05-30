@@ -33,16 +33,16 @@
 -----
 
 ## ✨ Fitur Utama
-###😊 Daily Check-in
+### 😊 Daily Check-in
 Pengguna dapat melakukan check-in suasana hati harian untuk memantau kondisi emosional mereka dari waktu ke waktu.
 
-###📋 Cek Stress
+### 📋 Cek Stress
 Melakukan penilaian tingkat stres melalui kuisioner yang telah disediakan.
 
-###📔 Journaling
+### 📔 Journaling
 Mencatat aktivitas, pengalaman, dan perasaan pengguna setiap hari.
 
-###🏃 Olahraga
+### 🏃 Olahraga
 Memberikan rekomendasi olahraga berdasarkan kondisi mental pengguna.
 
 ### 📚 Book Recommendation
